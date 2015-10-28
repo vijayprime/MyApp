@@ -4,4 +4,7 @@ jdk:
 script: 
   mvn install gweg
 notifications:
-  email: true
+  email:
+    recipients:
+      - vignesh.murugan@one.verizon.com
+      - vijay.raghunathkm@one.verizon.com
