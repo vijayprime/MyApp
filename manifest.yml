@@ -1,0 +1,11 @@
+language: java
+---
+domain: cfapps.io
+memory: 1G
+instances: 1
+services:
+- clockwork-mysql
+applications:
+- name: MyApp
+  host: myapp
+  path: com-byteslounge-war/target/com-byteslounge-war-1.0-SNAPSHOT
