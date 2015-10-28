@@ -21,3 +21,5 @@ deploy:
   on:
     repo: vignesh5989/MyApp
     branch: master
+  commands:
+    - cf push
