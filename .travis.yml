@@ -16,7 +16,7 @@ deploy:
     secure: "vignesh.murugan@one.verizon.com"
   password:
     secure: "vicky59"
-  organization: VDSI - MyApp
+  organization: VDSI-MyApp
   space: development
   on:
     repo: vignesh5989/MyApp
