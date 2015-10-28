@@ -9,6 +9,7 @@ notifications:
       - vignesh.murugan@one.verizon.com
       - vijay.raghunathkm@one.verizon.com
 deploy:
+  edge:true
   provider: cloudfoundry
   api: https://api.run.pivotal.io
   username:
